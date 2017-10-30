@@ -1,0 +1,307 @@
+[{
+    "id": "the_great_thief",
+    "title": "The Great Thief",
+    "effect": "Knowledge +2",
+    "block": 2,
+    "location": "Library",
+    "condition": null,
+    "price": null
+  },
+  {
+    "id": "pirate_legend",
+    "title": "Pirate Legend",
+    "effect": "Guts +2",
+    "block": 2,
+    "location": "Library",
+    "condition": null,
+    "price": null
+  },
+  {
+    "id": "zorro_the_outlaw",
+    "title": "Zorro, the Outlaw",
+    "effect": "Kindness +2",
+    "block": 2,
+    "location": "Library",
+    "condition": null,
+    "price": null
+  },
+  {
+    "id": "the_alluring_dancer",
+    "title": "The Alluring Dancer",
+    "effect": "Charm +2",
+    "block": 2,
+    "location": "Library",
+    "condition": null,
+    "price": null
+  },
+  {
+    "id": "the_gallant_rogue",
+    "title": "The Gallant Rogue",
+    "effect": "Guts +2",
+    "block": 2,
+    "location": "Library",
+    "condition": "after Yusuke joins",
+    "price": null
+  },
+  {
+    "id": "the_illusory_popess",
+    "title": "The Illusory Popess",
+    "effect": "Kindness +2",
+    "block": 2,
+    "location": "Library",
+    "condition": "after Makoto joins",
+    "price": null
+  },
+  {
+    "id": "cry_of_cthulhu",
+    "title": "Cry of Cthulhu",
+    "effect": "Guts +2",
+    "block": 2,
+    "location": "Library",
+    "condition": "after Futaba joins",
+    "price": null
+  },
+  {
+    "id": "woman_in_the_dark",
+    "title": "Woman in the Dark",
+    "effect": "Proficiency +2",
+    "block": 2,
+    "location": "Library",
+    "condition": "after Haru joins",
+    "price": null
+  },
+  {
+    "id": "master_swordsman",
+    "title": "Master Swordsman",
+    "effect": "Guts +3 (+1 hidden)",
+    "block": 3,
+    "location": "Jinbocho",
+    "condition": null,
+    "price": 8000
+  },
+  {
+    "id": "call_me_chief",
+    "title": "Call Me Chief",
+    "effect": "Kindness +3 (+1 hidden)",
+    "block": 3,
+    "location": "Jinbocho",
+    "condition": "after reading Master Swordsman",
+    "price": 8000
+  },
+  {
+    "id": "reckless_casanova",
+    "title": "Reckless Casanova",
+    "effect": "Charm +3 (+1 hidden)",
+    "block": 3,
+    "location": "Jinbocho",
+    "condition": "after reading Call Me Chief",
+    "price": 8000
+  },
+  {
+    "id": "speed_reading",
+    "title": "Speed Reading",
+    "effect": "Increase your reading speed",
+    "block": 1,
+    "location": "Jinbocho",
+    "condition": "after reading Reckless Casanova",
+    "price": 12000
+  },
+  {
+    "id": "tidying_the_heart",
+    "title": "Tidying the Heart",
+    "effect": "Proficiency +3",
+    "block": 2,
+    "location": "Shibuya Bookstore",
+    "condition": null,
+    "price": 700
+  },
+  {
+    "id": "buchikos_story",
+    "title": "Buchiko's Story",
+    "effect": "Kindness +3",
+    "block": 2,
+    "location": "Shibuya Bookstore",
+    "condition": null,
+    "price": 700
+  },
+  {
+    "id": "playing_the_game",
+    "title": "Playing the Game",
+    "effect": "Charm +3",
+    "block": 2,
+    "location": "Shibuya Bookstore",
+    "condition": null,
+    "price": 700
+  },
+  {
+    "id": "medjed_menace",
+    "title": "Medjed Menace",
+    "effect": "Knowledge +3",
+    "block": 2,
+    "location": "Shibuya Bookstore",
+    "condition": "after 5/6",
+    "price": 1200
+  },
+  {
+    "id": "weekend_parks",
+    "title": "Weekend Parks",
+    "effect": "Unlock Inokashira Park",
+    "block": 1,
+    "location": "Shibuya Bookstore",
+    "condition": "after 5/18",
+    "price": 1800
+  },
+  {
+    "id": "vague",
+    "title": "Vague",
+    "effect": "Unlock Harajuku",
+    "block": 1,
+    "location": "Shibuya Bookstore",
+    "condition": "after 5/18",
+    "price": 1800
+  },
+  {
+    "id": "wise_mens_words",
+    "title": "Wise Men's Words",
+    "effect": "Knowledge +3",
+    "block": 2,
+    "location": "Shibuya Bookstore",
+    "condition": "after 6/1",
+    "price": 700
+  },
+  {
+    "id": "nightlife_hotspots",
+    "title": "Nightlife Hotspots",
+    "effect": "Unlock Seaside Park",
+    "block": 1,
+    "location": "Shibuya Bookstore",
+    "condition": "after 6/1",
+    "price": 1800
+  },
+  {
+    "id": "ghost_encounters",
+    "title": "Ghost Encounters",
+    "effect": "Guts +3",
+    "block": 2,
+    "location": "Shibuya Bookstore",
+    "condition": "after 7/1",
+    "price": 700
+  },
+  {
+    "id": "fishpond_spotter",
+    "title": "Fishpond Spotter",
+    "effect": "Unlock Ichigaya",
+    "block": 1,
+    "location": "Shibuya Bookstore",
+    "condition": "after 7/16",
+    "price": 1800
+  },
+  {
+    "id": "tokyo_shrines",
+    "title": "Tokyo Shrines",
+    "effect": "Unlock Meiji Shrine",
+    "block": 1,
+    "location": "Shibuya Bookstore",
+    "condition": "after 9/1",
+    "price": 1800
+  },
+  {
+    "id": "museum_of_stars",
+    "title": "Museum of Stars",
+    "effect": "Unlock Ikebukuro",
+    "block": 1,
+    "location": "Shibuya Bookstore",
+    "condition": "after 9/1",
+    "price": 1800
+  },
+  {
+    "id": "musty_pages",
+    "title": "Musty Pages",
+    "effect": "Unlock Jinbocho",
+    "block": 1,
+    "location": "Shibuya Bookstore",
+    "condition": "after 9/1",
+    "price": 1800
+  },
+  {
+    "id": "flowerpedia",
+    "title": "Flowerpedia",
+    "effect": "Hints when you work at the Flower Shop",
+    "block": 1,
+    "location": "Shinjuku Bookstore",
+    "condition": "after working at the Flower Shop",
+    "price": 2800
+  },
+  {
+    "id": "batting_science",
+    "title": "Batting Science",
+    "effect": "Third Eye during batting",
+    "block": 1,
+    "location": "Shinjuku Bookstore",
+    "condition": "after using the Batting Cages",
+    "price": 2800
+  },
+  {
+    "id": "essence_of_fishing",
+    "title": "Essence of Fishing",
+    "effect": "Third Eye during fishing",
+    "block": 1,
+    "location": "Shinjuku Bookstore",
+    "condition": "after fishing at Ichigaya",
+    "price": 2800
+  },
+  {
+    "id": "cinema_treasures",
+    "title": "Cinema Treasures",
+    "effect": "Gain more stats when you watch a movie",
+    "block": 1,
+    "location": "Shinjuku Bookstore",
+    "condition": "after watching a movie",
+    "price": 2800
+  },
+  {
+    "id": "game_secrets",
+    "title": "Game Secrets",
+    "effect": "Make retro games easier",
+    "block": 1,
+    "location": "Shinjuku Bookstore",
+    "condition": "after playing a retro game",
+    "price": 2800
+  },
+  {
+    "id": "yoncha_wanderer",
+    "title": "Yoncha Wanderer",
+    "effect": "Unlock Quick Travel to Bathhouse and Batting Cages",
+    "block": 1,
+    "location": "After cleaning your room",
+    "condition": null,
+    "price": null
+  },
+  {
+    "id": "chinese_sweets",
+    "title": "Chinese Sweets",
+    "effect": "Unlock China Town",
+    "block": 1,
+    "location": "Mementos reward",
+    "condition": null,
+    "price": null
+  },
+  {
+    "id": "theme_park_escort",
+    "title": "Theme Park Escort",
+    "effect": "Unlock Maihama",
+    "block": 1,
+    "location": "Mementos reward",
+    "condition": null,
+    "price": null
+  },
+  {
+    "id": "shitamachi_reborn",
+    "title": "Shitamachi Reborn",
+    "effect": "Unlock Asakusa",
+    "block": 1,
+    "location": "Mementos reward",
+    "condition": null,
+    "price": null
+  }
+]
