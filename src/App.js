@@ -25,7 +25,7 @@ class App extends Component {
             ))}
           </Container>
         </Menu>
-        <Container style={{marginTop: '40px'}}>
+        <Container style={{marginTop: '50px'}}>
           <Switch>
             <Route exact path='/' component={Home}/>
             <Route exact path='/books' component={BooksProgress}/>

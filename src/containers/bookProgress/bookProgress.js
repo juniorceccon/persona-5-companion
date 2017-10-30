@@ -5,14 +5,19 @@ import books from './books.json';
 class BookProgress extends Component {
 
   state = {
-    done: [],
+    done: ["pirate_legend"],
     have: []
-  }
+  };
 
   render () {
+    const doneList = books.filter(book => this.state.done.includes(book.id));
+    const haveList = books.filter(book => this.state.have.includes(book.id));
+    const elseList = books.filter(book => !this.state.done.concat(this.state.have).includes(book.id));
     return (
       <div>
-        <BookList list={books} />
+        {doneList.length > 0 ? <BookList title="Finalizados" list={doneList} /> : null}
+        {haveList.length > 0 ? <BookList title="Tem" list={haveList} /> : null}
+        {elseList.length > 0 ? <BookList title="Não tem" list={elseList} /> : null}
       </div>
     );
   }
