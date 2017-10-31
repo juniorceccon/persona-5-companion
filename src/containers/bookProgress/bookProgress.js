@@ -34,7 +34,6 @@ class BookProgress extends Component {
     };
 
     render() {
-
         const qtdTotal = books.length;
 
         const doneList = books.filter(book => this.state.done.includes(book.id));
@@ -44,7 +43,6 @@ class BookProgress extends Component {
         const pctElse = (elseList.length/qtdTotal).toLocaleString(undefined, {style: 'percent', minimumFractionDigits:2});
         const pctHave = (haveList.length/qtdTotal).toLocaleString(undefined, {style: 'percent', minimumFractionDigits:2});
         const pctDone = (doneList.length/qtdTotal).toLocaleString(undefined, {style: 'percent', minimumFractionDigits:2});
-
 
         const panes = [
             {menuItem: `Não tem (${pctElse})`, render: () => <BookList list={elseList} acao={(id) => this.naoTemHandler(id)}/>},
