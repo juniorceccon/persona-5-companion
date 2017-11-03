@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
 import BookList from '../../components/bookList';
-import {Tab, Progress} from 'semantic-ui-react';
+import {Tab, Progress, Checkbox} from 'semantic-ui-react';
 import books from './books.json';
 
 class BookProgress extends Component {
 
     state = {
         done: [],
-        have: []
+        have: [],
+        groupByLocation: true
     };
 
     naoTemHandler = (id) => {
@@ -33,6 +34,8 @@ class BookProgress extends Component {
         this.setState({done: newDone});
     };
 
+    toggleGroupByHandler = () => this.setState({groupByLocation: !this.state.groupByLocation});
+
     render() {
         const qtdTotal = books.length;
 
@@ -45,14 +48,15 @@ class BookProgress extends Component {
         const pctDone = (doneList.length/qtdTotal).toLocaleString(undefined, {style: 'percent', minimumFractionDigits:2});
 
         const panes = [
-            {menuItem: `Não tem (${pctElse})`, render: () => <BookList list={elseList} acao={(id) => this.naoTemHandler(id)}/>},
-            {menuItem: `Tem (${pctHave})`, render: () => <BookList list={haveList} acao={(id) => this.temHandler(id)}/>},
-            {menuItem: `Finalizados (${pctDone})`, render: () => <BookList list={doneList} acao={(id) => this.finalizadoHandler(id)}/>},
+            {menuItem: `Não tem (${pctElse})`, render: () => <BookList list={elseList} acao={(id) => this.naoTemHandler(id)} groupByLocation={this.state.groupByLocation}/>},
+            {menuItem: `Tem (${pctHave})`, render: () => <BookList list={haveList} acao={(id) => this.temHandler(id)} groupByLocation={this.state.groupByLocation}/>},
+            {menuItem: `Finalizados (${pctDone})`, render: () => <BookList list={doneList} acao={(id) => this.finalizadoHandler(id)} groupByLocation={this.state.groupByLocation}/>},
         ];
 
         return (
             <div>
                 <Progress percent={doneList.length/qtdTotal*100} indicating />
+                <Checkbox toggle label="Group by Location" onChange={this.toggleGroupByHandler} checked={this.state.groupByLocation}/>
                 <Tab menu={{ secondary: true, pointing: true }} panes={panes}/>
             </div>
         );
